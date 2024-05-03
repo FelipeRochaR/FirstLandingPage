@@ -1,0 +1,131 @@
+/*Define o estilo do corpo do HTML*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /*Fonte do texto no body*/
+    margin: 0; /*remove a margem do body*/
+    padding: 0; /*remove o preenchimento do body*/
+}
+
+header{
+    text-align: center; /*alinha o texto ao centro*/
+    padding: 20px;
+    background-color: #141414; /*cor de fundo do header*/
+    color: #ccc; /*define cor do texto*/
+}
+
+header h1{
+    font-size: 36px;
+    color: darkorchid;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+p{
+    color: rgb(192, 192, 192);
+}
+
+p:hover{
+    color: #f8e5e5;
+}
+
+main{
+    background-color: #141414;
+}
+
+#Produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: #141414;
+    gap: 20px;
+}
+
+div.product{
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #141414;
+}
+
+
+img.produto{
+    max-width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+main h2{
+    color: #ccc;
+}
+
+button{
+    color: rgb(10,9,9);
+    background: aliceblue;
+    border-radius: 6px;
+    width: 100px;
+}
+
+button:hover{
+    color: darkorchid;
+}
+
+#Beneficios{
+    text-align: center;
+    padding: 20px;
+    background-color: darkorchid;
+
+}
+
+li{
+    list-style: none;
+}
+
+h2.titulo2{
+    color: #141414;
+
+}
+
+.textoD{
+    margin-bottom: 5px;                         
+}
+
+#Depoimentos{
+    text-align: center;
+    padding: 3px;
+    background-color: #141414;
+}
+
+span{
+    color: #ccc;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
+}
+
+#Contato{
+    text-align: center;
+    background: darkorchid;
+    color: #ccc;
+}
+
+form input, form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+}
